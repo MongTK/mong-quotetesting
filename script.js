@@ -40,8 +40,7 @@ async function getQuote(){
         }
         quoteText.innerText = data.quoteText;
         // console.log(data);
-
-        removeLoadingSpinne();
+   removeLoadingSpinne();
     }catch(error){
         getQuote();
         // console.log('whoo, no quote',error);

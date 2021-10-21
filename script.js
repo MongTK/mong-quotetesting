@@ -40,11 +40,10 @@ async function getQuote(){
         }
         quoteText.innerText = data.quoteText;
         // console.log(data);
-   removeLoadingSpinne();
+    removeLoadingSpinner();
     }catch(error){
         getQuote();
         // console.log('whoo, no quote',error);
-
     }
 }
 //twitter quote

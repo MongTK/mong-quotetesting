@@ -39,7 +39,6 @@ async function getQuote(){
             quoteText.classList.remove('long-quote');
         }
         quoteText.innerText = data.quoteText;
-        // console.log(data);
     removeLoadingSpinner();
     }catch(error){
         getQuote();
